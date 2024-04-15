@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Instalação de Piso Vinílico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="titulo">Calculadora de Instalação de Piso Vinílico</h1>
+    </header>
+    <main>
+        <section class="tituloSection">
+            <h2 class="subtitulo">Insira as medidas do cômodo e escolha o rodapé para calcular o custo da instalação.</h2>
+            <p class="descricao"></p>
+        </section>
+        <form id="calcForm" class="formulario">
+            <label for="largura">Largura (metros):</label>
+            <input type="number" step="0.01" id="largura" name="largura" required>
+            <label for="comprimento">Comprimento (metros):</label>
+            <input type="number" step="0.01" id="comprimento" name="comprimento" required>
+            <label for="rodape">Escolha a largura do rodapé:</label>
+            <select id="rodape" name="rodape" class="destaque">
+                <option value="3">3cm</option>
+                <option value="5">5cm</option>
+                <option value="7">7cm</option>
+                <option value="10">10cm</option>
+                <option value="15">15cm</option>
+                <option value="20">20cm</option>
+            </select>
+            <button type="submit" class="botao">Calcular</button>
+        </form>
+        <div id="resultado" class="resultado"></div>
+        <div id="fotoSlider" class="fotoSlider"></div> <!-- Elemento div para o slider de fotos -->
+    </main>
+    <footer class="footer">
+        <p class="textoRodape">@Leonardo Liberato</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

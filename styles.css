@@ -1,0 +1,118 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Tom de fundo mais claro */
+}
+
+.header {
+    background-color: #007bff; /* Azul forte para o cabeçalho */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo {
+    margin: 0; /* Remover margem padrão */
+}
+
+.tituloSection {
+    background-color: #007bff; /* Azul forte para a seção do título */
+    color: #fff; /* Texto branco */
+    padding: 50px; /* Adicionando espaço ao redor do texto */
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 20px; /* Tamanho de fonte maior para o subtítulo */
+}
+
+.descricao {
+    font-size: 16px; /* Tamanho de fonte maior para a descrição */
+    margin-bottom: 20px; /* Adicionando espaço abaixo da descrição */
+}
+
+.main {
+    padding: 20px;
+}
+
+.formulario {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"],
+select,
+.botao {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Adicionando borda */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+.botao {
+    background-color: #007bff; /* Azul forte para o botão */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para o resultado */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionando sombra */
+}
+
+.footer {
+    background-color: #007bff; /* Azul forte para o rodapé */
+    color: #fff;
+    padding: 20px 0; /* Espaçamento no topo e na base */
+    text-align: center;
+}
+
+.textoRodape {
+    margin: 0; /* Remover margem padrão */
+    font-size: 14px; /* Tamanho de fonte menor para o texto do rodapé */
+}
+
+/* Estilo para o slider de fotos */
+.fotoSlider {
+    width: 100%;
+    height: 300px; /* Ajuste conforme necessário */
+    background-color: #add8e6; /* Quadrado azul claro em cima da foto */
+    background-size: cover; /* Exibir a foto cobrindo todo o quadrado */
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    background-position: center; /* Centralizar a imagem no quadrado */
+    margin-bottom: 20px;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    .titulo {
+        font-size: 20px; /* Tamanho de fonte menor para o título em dispositivos móveis */
+    }
+
+    .subtitulo {
+        font-size: 16px; /* Tamanho de fonte menor para o subtítulo em dispositivos móveis */
+    }
+
+    .descricao {
+        font-size: 14px; /* Tamanho de fonte menor para a descrição em dispositivos móveis */
+    }
+
+    .resultado {
+        padding: 10px; /* Reduzindo o espaço ao redor do resultado em dispositivos móveis */
+    }
+}
